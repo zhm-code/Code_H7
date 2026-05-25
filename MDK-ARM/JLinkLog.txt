@@ -1,0 +1,168 @@
+T4F3C 000:151.797   SEGGER J-Link V8.16 Log File
+T4F3C 000:151.885   DLL Compiled: Feb 26 2025 12:07:26
+T4F3C 000:151.889   Logging started @ 2026-05-23 09:19
+T4F3C 000:151.892   Process: C:\Users\27608\AppData\Local\Keil_v5\UV4\UV4.exe
+T4F3C 000:151.900 - 151.895ms 
+T4F3C 000:151.906 JLINK_SetWarnOutHandler(...)
+T4F3C 000:151.910 - 0.005ms 
+T4F3C 000:151.915 JLINK_OpenEx(...)
+T4F3C 000:156.563   Firmware: J-Link Pro V4 compiled Sep 22 2049 23:00:37
+T4F3C 000:158.461   Firmware: J-Link Pro V4 compiled Sep 22 2049 23:00:37
+T4F3C 000:158.582   Decompressing FW timestamp took 81 us
+T4F3C 000:161.792   Hardware: V4.00
+T4F3C 000:161.815   S/N: 175041281
+T4F3C 000:161.820   OEM: SEGGER
+T4F3C 000:161.825   Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+T4F3C 000:163.660   Bootloader: (FW returned invalid version)
+T4F3C 000:165.633   TELNET listener socket opened on port 19021
+T4F3C 000:165.817   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T4F3C 000:166.012   WEBSRV Webserver running on local port 19080
+T4F3C 000:166.158   Looking for J-Link GUI Server exe at: C:\Users\27608\AppData\Local\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T4F3C 000:166.278   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T4F3C 000:166.321   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T4F3C 000:189.349   J-Link GUI Server info: "J-Link GUI server V7.82 "
+T4F3C 000:189.480   J-Link GUI Server: Connection breakdown.
+T4F3C 000:189.557 - 37.636ms returns "O.K."
+T4F3C 000:189.574 JLINK_GetEmuCaps()
+T4F3C 000:189.579 - 0.003ms returns 0xB9FF7BBF
+T4F3C 000:189.592 JLINK_TIF_GetAvailable(...)
+T4F3C 000:190.204 - 0.611ms 
+T4F3C 000:190.232 JLINK_SetErrorOutHandler(...)
+T4F3C 000:190.236 - 0.003ms 
+T4F3C 000:190.273 JLINK_ExecCommand("ProjectFile = "D:\code\MDK\±¸·Ý\Code_H7_GB5745Z_GB5753Z_GB7639\MDK-ARM\JLinkSettings.ini"", ...). 
+T4F3C 000:199.509 - 9.242ms returns 0x00
+T4F3C 000:199.536 JLINK_ExecCommand("Device = STM32H743IITx", ...). 
+T4F3C 000:199.676   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T4F3C 000:199.682     FlashDevice.SectorInfo[0]: .SectorSize = 0x00020000, .SectorStartAddr = 0x00000000
+T4F3C 000:199.688   FlashBank @0x08000000: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T4F3C 000:199.955   Flash bank @ 0x08100000: SFL: Parsing sectorization info from ELF file
+T4F3C 000:199.961     FlashDevice.SectorInfo[0]: .SectorSize = 0x00020000, .SectorStartAddr = 0x00000000
+T4F3C 000:199.966   FlashBank @0x08100000: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T4F3C 000:200.245   Flash bank @ 0x90000000: SFL: Parsing sectorization info from ELF file
+T4F3C 000:200.251     FlashDevice.SectorInfo[0]: .SectorSize = 0x00010000, .SectorStartAddr = 0x00000000
+T4F3C 000:208.164   Device "STM32H743II" selected.
+T4F3C 000:208.427 - 8.885ms returns 0x00
+T4F3C 000:208.437 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T4F3C 000:208.445   ERROR: Unknown command
+T4F3C 000:208.450 - 0.008ms returns 0x01
+T4F3C 000:208.454 JLINK_GetHardwareVersion()
+T4F3C 000:208.458 - 0.003ms returns 40000
+T4F3C 000:208.462 JLINK_GetDLLVersion()
+T4F3C 000:208.465 - 0.003ms returns 81600
+T4F3C 000:208.469 JLINK_GetOEMString(...)
+T4F3C 000:208.473 JLINK_GetFirmwareString(...)
+T4F3C 000:208.476 - 0.003ms 
+T4F3C 000:208.482 JLINK_GetDLLVersion()
+T4F3C 000:208.485 - 0.003ms returns 81600
+T4F3C 000:208.489 JLINK_GetCompileDateTime()
+T4F3C 000:208.492 - 0.003ms 
+T4F3C 000:208.496 JLINK_GetFirmwareString(...)
+T4F3C 000:208.499 - 0.003ms 
+T4F3C 000:208.503 JLINK_GetHardwareVersion()
+T4F3C 000:208.506 - 0.003ms returns 40000
+T4F3C 000:208.510 JLINK_GetSN()
+T4F3C 000:208.513 - 0.003ms returns 175041281
+T4F3C 000:208.517 JLINK_GetOEMString(...)
+T4F3C 000:208.526 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T4F3C 000:211.021 - 2.496ms returns 0x00
+T4F3C 000:211.052 JLINK_HasError()
+T4F3C 000:211.074 JLINK_SetSpeed(5000)
+T4F3C 000:211.638 - 0.566ms 
+T4F3C 000:212.287 JLINK_HasError()
+T4F3C 000:212.312 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T4F3C 000:212.322 - 0.009ms returns JLINKARM_RESET_TYPE_NORMAL
+T4F3C 000:212.331 JLINK_Reset()
+T4F3C 000:212.928   ConfigTargetSettings() start
+T4F3C 000:212.940    J-Link Script File: Executing ConfigTargetSettings()
+T4F3C 000:212.956   ConfigTargetSettings() end - Took 16us
+T4F3C 000:212.961   InitTarget() start
+T4F3C 000:212.966    J-Link Script File: Executing InitTarget()
+T4F3C 000:213.558   SWD selected. Executing JTAG -> SWD switching sequence.
+T4F3C 000:217.565   DAP initialized successfully.
+T4F3C 000:242.279   InitTarget() end - Took 29.3ms
+T4F3C 000:243.586   Found SW-DP with ID 0x6BA02477
+T4F3C 000:247.261   DPIDR: 0x6BA02477
+T4F3C 000:247.272   CoreSight SoC-400 or earlier
+T4F3C 000:247.279   Scanning AP map to find all available APs
+T4F3C 000:249.827   AP[3]: Stopped AP scan as end of AP map has been reached
+T4F3C 000:249.838   AP[0]: AHB-AP (IDR: 0x84770001, ADDR: 0x00000000)
+T4F3C 000:249.844   AP[1]: AHB-AP (IDR: 0x84770001, ADDR: 0x01000000)
+T4F3C 000:249.849   AP[2]: APB-AP (IDR: 0x54770002, ADDR: 0x02000000)
+T4F3C 000:249.854   Iterating through AP map to find AHB-AP to use
+T4F3C 000:251.094   AP[0]: Core found
+T4F3C 000:251.120   AP[0]: AHB-AP ROM base: 0xE00FE000
+T4F3C 000:251.728   CPUID register: 0x411FC271. Implementer code: 0x41 (ARM)
+T4F3C 000:252.603   Cache: L1 I/D-cache present
+T4F3C 000:252.634   Found Cortex-M7 r1p1, Little endian.
+T4F3C 000:253.793   -- Max. mem block: 0x0000CBD0
+T4F3C 000:255.672   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4F3C 000:256.346   CPU_ReadMem(4 bytes @ 0xE0002000)
+T4F3C 000:256.962   FPUnit: 8 code (BP) slots and 0 literal slots
+T4F3C 000:256.967   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T4F3C 000:257.594   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T4F3C 000:258.240   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4F3C 000:258.871   CPU_WriteMem(4 bytes @ 0xE0001000)
+T4F3C 000:259.601   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T4F3C 000:260.195   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T4F3C 000:260.846   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T4F3C 000:261.459   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T4F3C 000:262.089   CoreSight components:
+T4F3C 000:262.094   ROMTbl[0] @ E00FE000
+T4F3C 000:262.099   CPU_ReadMem(64 bytes @ 0xE00FE000)
+T4F3C 000:262.911   CPU_ReadMem(32 bytes @ 0xE00FFFE0)
+T4F3C 000:263.830   [0][0]: E00FF000 CID B105100D PID 000BB4C7 ROM Table
+T4F3C 000:263.856   ROMTbl[1] @ E00FF000
+T4F3C 000:263.869   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T4F3C 000:264.634   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T4F3C 000:265.189   [1][0]: E000E000 CID B105E00D PID 000BB00C SCS-M7
+T4F3C 000:265.216   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T4F3C 000:265.932   [1][1]: E0001000 CID B105E00D PID 000BB002 DWT
+T4F3C 000:265.958   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T4F3C 000:266.681   [1][2]: E0002000 CID B105E00D PID 000BB00E FPB-M7
+T4F3C 000:266.686   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T4F3C 000:267.460   [1][3]: E0000000 CID B105E00D PID 000BB001 ITM
+T4F3C 000:267.466   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T4F3C 000:268.164   [0][1]: E0041000 CID B105900D PID 001BB975 ETM-M7
+T4F3C 000:268.169   CPU_ReadMem(32 bytes @ 0xE0043FE0)
+T4F3C 000:268.981   [0][2]: E0043000 CID B105900D PID 004BB906 CTI
+T4F3C 000:269.007   CPU_WriteMem(4 bytes @ 0xE000ED84)
+T4F3C 000:269.780   CPU_ReadMem(4 bytes @ 0xE000ED80)
+T4F3C 000:270.471   I-Cache L1: 16 KB, 256 Sets, 32 Bytes/Line, 2-Way
+T4F3C 000:270.481   CPU_WriteMem(4 bytes @ 0xE000ED84)
+T4F3C 000:271.145   CPU_ReadMem(4 bytes @ 0xE000ED80)
+T4F3C 000:271.840   D-Cache L1: 16 KB, 128 Sets, 32 Bytes/Line, 4-Way
+T4F3C 000:271.879   JLINK_GetResetTypeDesc
+T4F3C 000:271.883   - 0.004ms 
+T4F3C 000:271.888   Reset type: NORMAL (https://wiki.segger.com/J-Link_Reset_Strategies)
+T4F3C 000:271.894   CPU is running
+T4F3C 000:271.901   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T4F3C 000:272.600   CPU is running
+T4F3C 000:272.615   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T4F3C 000:273.237   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T4F3C 000:274.521   Reset: Reset device via AIRCR.SYSRESETREQ.
+T4F3C 000:274.527   CPU is running
+T4F3C 000:274.533   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T4F3C 000:330.028   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4F3C 000:330.723   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4F3C 000:333.842   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T4F3C 000:340.850   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T4F3C 000:343.960   CPU_WriteMem(4 bytes @ 0xE0002000)
+T4F3C 000:344.618   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T4F3C 000:345.097   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4F3C 000:345.724 - 133.393ms 
+T4F3C 000:345.768 JLINK_GetId()
+T4F3C 000:346.288 - 0.519ms returns 0x6BA02477
+T4F3C 000:351.143 JLINK_GetFirmwareString(...)
+T4F3C 000:351.154 - 0.011ms 
+T4F3C 001:479.651 JLINK_Close()
+T4F3C 001:480.483   OnDisconnectTarget() start
+T4F3C 001:480.494    J-Link Script File: Executing OnDisconnectTarget()
+T4F3C 001:480.509   CPU_WriteMem(4 bytes @ 0x5C001004)
+T4F3C 001:481.148   CPU_WriteMem(4 bytes @ 0x5C001034)
+T4F3C 001:481.947   CPU_WriteMem(4 bytes @ 0x5C001054)
+T4F3C 001:482.675   OnDisconnectTarget() end - Took 2.17ms
+T4F3C 001:482.707   CPU_ReadMem(4 bytes @ 0xE0001000)
+T4F3C 001:483.377   CPU_WriteMem(4 bytes @ 0xE0001004)
+T4F3C 001:503.458 - 23.807ms
+T4F3C 001:503.469   
+T4F3C 001:503.472   Closed

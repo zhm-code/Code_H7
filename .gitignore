@@ -1,0 +1,54 @@
+# 忽略Keil MDK-ARM生成的文件和目录  
+*.axf  
+*.bin  
+*.hex  
+*.lst  
+*.map  
+*.o  
+*.d             
+*.bak  
+*.dep  
+*.crf  
+*.plg  
+*.trf  
+*.build_log.htm  
+*.htm  
+*.uvoptx        
+*.uvguix.*      
+*.scvd          
+DebugConfig/    
+RTE/            
+Listings/  
+Objects/  
+Output/  
+  
+# 如果你使用了仿真或调试，可能会生成以下文件  
+*.elf  
+*.hex  
+*.srec  
+  
+# Keil的UVx项目文件（x取决于Keil的版本，通常是2到5）  
+*.uv2  
+*.uv3  
+*.uv4  
+*.uv5  
+*.uvgui  
+*.uvopt  
+*.uvproj  
+*.uvprojx  
+*.uvx  
+  
+# Keil的调试和仿真配置文件  
+*.ini  
+  
+# 如果你在Windows上工作，可能还会生成以下隐藏文件  
+Thumbs.db  
+  
+# 其他可能的临时或不需要的文件  
+*.tmp 
+
+# vscode 联调文件
+MDK-ARM/.vscode/
+
+MDK-ARM/H7_test_board/H7_test_board.lnp
+MDK-ARM/H7_test_board/H7_test_board.sct
