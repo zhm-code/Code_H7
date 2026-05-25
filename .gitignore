@@ -35,7 +35,6 @@ Output/
 *.uvgui  
 *.uvopt  
 *.uvproj  
-*.uvprojx  
 *.uvx  
   
 # Keil的调试和仿真配置文件  
